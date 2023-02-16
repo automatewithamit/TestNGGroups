@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="6" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-07T15:00:04 IST" name="Suite" finished-at="2023-02-07T15:00:05 IST" duration-ms="307">
+    <groups>
+      <group name="Regression">
+        <method signature="TestClass1.Test2()[pri:0, instance:demo.advanced.tests.TestClass1@696da30b]" name="Test2" class="demo.advanced.tests.TestClass1"/>
+        <method signature="TestClass2.TestMethod2FromTestClass2()[pri:0, instance:demo.advanced.tests.TestClass2@3232a28a]" name="TestMethod2FromTestClass2" class="demo.advanced.tests.TestClass2"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2023-02-07T15:00:04 IST" name="TestTag1" finished-at="2023-02-07T15:00:04 IST" duration-ms="87">
+      <class name="demo.advanced.tests.TestClass1">
+        <test-method signature="Test2()[pri:0, instance:demo.advanced.tests.TestClass1@696da30b]" started-at="2023-02-07T15:00:04 IST" name="Test2" finished-at="2023-02-07T15:00:04 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+      </class> <!-- demo.advanced.tests.TestClass1 -->
+    </test> <!-- TestTag1 -->
+    <test started-at="2023-02-07T15:00:05 IST" name="TestTag2" finished-at="2023-02-07T15:00:05 IST" duration-ms="43">
+      <class name="demo.advanced.tests.TestClass2">
+        <test-method is-config="true" signature="BeforeSuite()[pri:0, instance:demo.advanced.tests.TestClass2@3232a28a]" started-at="2023-02-07T15:00:04 IST" name="BeforeSuite" finished-at="2023-02-07T15:00:04 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeSuite -->
+        <test-method is-config="true" signature="BeforeTest()[pri:0, instance:demo.advanced.tests.TestClass2@3232a28a]" started-at="2023-02-07T15:00:05 IST" name="BeforeTest" finished-at="2023-02-07T15:00:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTest -->
+        <test-method is-config="true" signature="BeforeClass()[pri:0, instance:demo.advanced.tests.TestClass2@3232a28a]" started-at="2023-02-07T15:00:05 IST" name="BeforeClass" finished-at="2023-02-07T15:00:05 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeClass -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:demo.advanced.tests.TestClass2@3232a28a]" started-at="2023-02-07T15:00:05 IST" name="BeforeMethod" finished-at="2023-02-07T15:00:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="TestMethod1FromTestClass2()[pri:0, instance:demo.advanced.tests.TestClass2@3232a28a]" started-at="2023-02-07T15:00:05 IST" name="TestMethod1FromTestClass2" finished-at="2023-02-07T15:00:05 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestMethod1FromTestClass2 -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:demo.advanced.tests.TestClass2@3232a28a]" started-at="2023-02-07T15:00:05 IST" name="AfterMethod" finished-at="2023-02-07T15:00:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method signature="TestMethod2FromTestClass2()[pri:0, instance:demo.advanced.tests.TestClass2@3232a28a]" started-at="2023-02-07T15:00:05 IST" name="TestMethod2FromTestClass2" finished-at="2023-02-07T15:00:05 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestMethod2FromTestClass2 -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:demo.advanced.tests.TestClass2@3232a28a]" started-at="2023-02-07T15:00:05 IST" name="BeforeMethod" finished-at="2023-02-07T15:00:05 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:demo.advanced.tests.TestClass2@3232a28a]" started-at="2023-02-07T15:00:05 IST" name="AfterMethod" finished-at="2023-02-07T15:00:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:demo.advanced.tests.TestClass2@3232a28a]" started-at="2023-02-07T15:00:05 IST" name="BeforeMethod" finished-at="2023-02-07T15:00:05 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="TestMethod3FromTestClass2()[pri:0, instance:demo.advanced.tests.TestClass2@3232a28a]" started-at="2023-02-07T15:00:05 IST" name="TestMethod3FromTestClass2" finished-at="2023-02-07T15:00:05 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestMethod3FromTestClass2 -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:demo.advanced.tests.TestClass2@3232a28a]" started-at="2023-02-07T15:00:05 IST" name="AfterMethod" finished-at="2023-02-07T15:00:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method is-config="true" signature="AfterClass()[pri:0, instance:demo.advanced.tests.TestClass2@3232a28a]" started-at="2023-02-07T15:00:05 IST" name="AfterClass" finished-at="2023-02-07T15:00:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterClass -->
+        <test-method is-config="true" signature="AfterTest()[pri:0, instance:demo.advanced.tests.TestClass2@3232a28a]" started-at="2023-02-07T15:00:05 IST" name="AfterTest" finished-at="2023-02-07T15:00:05 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTest -->
+        <test-method is-config="true" signature="AfterSuite()[pri:0, instance:demo.advanced.tests.TestClass2@3232a28a]" started-at="2023-02-07T15:00:05 IST" name="AfterSuite" finished-at="2023-02-07T15:00:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterSuite -->
+      </class> <!-- demo.advanced.tests.TestClass2 -->
+    </test> <!-- TestTag2 -->
+  </suite> <!-- Suite -->
+</testng-results>
